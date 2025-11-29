@@ -14,6 +14,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "VNS Network – Internet Terpercaya di Margoyoso",
   description: "Layanan internet cepat dan stabil untuk wilayah Margoyoso.",
+  icons: {
+    icon: "/favicon.ico?v=2",
+    shortcut: "/favicon-32x32.png?v=2",
+    apple: "/apple-touch-icon.png?v=2",
+  },
 };
 
 export default function RootLayout({ children }) {
